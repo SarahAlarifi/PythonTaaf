@@ -90,7 +90,7 @@ out_file = tree.export_graphviz(
 )
 graph = pydotplus.graph_from_dot_data(out_file)
 # Image(graph.create_png())
-graph.write_png('tree.png') 
+#graph.write_png('tree.png') 
 @app.route('/s')# first trial
 def hello_world():
     json_file = {}
