@@ -3,3 +3,7 @@ pandas
 pyttsx3
 Flask
 numpy
+matplotlib
+IPython
+pydotplus
+pydot
